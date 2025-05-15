@@ -1,0 +1,36 @@
+/* ==UserStyle==
+@name           Better MWI CSS
+@namespace      github.com/502y/Better_MWI
+@version        1.0.0
+@description    A new userstyle for better MWI and plugin MWI Tools
+@author         502y
+==/UserStyle== */
+@-moz-document domain("milkywayidle.com") {
+    /*原版 Vanilla*/
+    button:active {
+        transform: scale(0.95);
+    }
+    /*插件 Plugin*/
+    #script_sortByAsk_btn,
+    #script_sortByBid_btn,
+    #script_sortByNone_btn {
+        border-radius: 3px;
+        background-color: rgb(67, 87, 175) !important;
+        color: white !important;
+        box-shadow: none;
+        border: 0px;
+        padding: 6px;
+        min-width: 55px;
+        cursor: pointer;
+    }
+    .Item_enhancementLevel__19g-e ~ #script_stack_price {
+        margin-top: 13px;
+    }
+    #script_stack_price {
+        color: #BCAC50;
+        text-shadow: 1px 1px 0 black,
+        -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black;
+    }
+}
